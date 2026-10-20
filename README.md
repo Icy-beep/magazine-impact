@@ -15,11 +15,11 @@
 
 | Поверхности | Используемая запись |
 | --- | --- |
-| Wood, WoodThin, WoodThick | Два S&W Magazine Drop |
-| Soil, Gravel | G3 Mag Drop |
+| Wood, WoodThin, WoodThick | [S&W Magazine Drop](https://freesound.org/people/Pjkasinski3/sounds/171620) |
+| Soil, Gravel | [G3 Mag Drop](https://freesound.org/people/smill.and.welson/sounds/858723) |
 | Grass | Моё |
 | Concrete, Asphalt, Slate, Tile, Glass, WholeGlass | Моё |
-| Metal, MetalThin, GarbageMetal, Garbage | G3 Mag Drop |
+| Metal, MetalThin, GarbageMetal, Garbage | [G3 Mag Drop](https://freesound.org/people/smill.and.welson/sounds/858723) |
 | Puddle, Swamp, Snow | Моё |
 | Plastic | Моё |
 | Неизвестный материал / отсутствующая или испорченная папка | Отладочный impact.wav |
