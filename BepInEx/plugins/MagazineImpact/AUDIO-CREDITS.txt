@@ -1,0 +1,52 @@
+MAGAZINE IMPACT 0.2.1 — AUDIO ATTRIBUTION
+
+1. G3 Mag Drop
+Author/uploader: smill.and.welson
+Source: https://freesound.org/people/smill.and.welson/sounds/858723/
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+License URL: https://creativecommons.org/licenses/by/4.0/
+Original recording credited on the source page to American Sub Gunner:
+https://www.youtube.com/@americansubgunner6053
+https://www.youtube.com/watch?v=YDD9pE1MmI4
+The uploader lists permission for use on the source page.
+Derived file: sounds/ground/ground_01.wav
+Changes: MP3 decoded; mono 44100 Hz PCM16; first 0.140 seconds retained;
+DC offset removed; 0.6 ms fade-in and 12 ms fade-out; peak normalized to 0.8.
+Assigned to Soil/Gravel based on the user's listening choice; the actual
+recorded surface has not been independently established.
+No endorsement by the author or original recorder is implied.
+Retain this attribution with distributions of this derived sound.
+
+2. Mag drop:table.mp3
+Author: Pjkasinski3
+Source: https://freesound.org/people/Pjkasinski3/sounds/171620/
+License: Creative Commons CC0 1.0 Universal
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Derived files: sounds/wood/wood_01_01.wav, sounds/wood/wood_02_02.wav
+Changes: stereo MP3 decoded and downmixed to mono 44100 Hz PCM16;
+source windows 0.052–0.145 and 0.378–0.475 seconds retained; DC offset removed;
+0.6 ms fade-in and 12 ms fade-out; peak normalized to 0.8.
+The author describes a S&W 9mm magazine dropped onto a faux velvet table.
+Assignment to game wood surfaces is an artistic mapping chosen by the user,
+not a verified description of the original recording surface.
+
+3. impact.wav
+Generated specifically for Magazine Impact as a temporary test impact.
+Not an EFT game recording. Only for unknown surfaces, missing/corrupt banks, or the diagnostic uniform-sound setting.
+
+All original input MP3s were supplied by the user. They are not included here.
+AudioEdits.json records processing windows, output frames and sample rates.
+
+0.2.1 UPDATE
+All existing recordings were gain-adjusted only; see AudioBalance.json.
+The S&W files also cover wood variants; G3 copies cover metal and garbage.
+The original edit windows and credits above still describe their source edits.
+User-supplied recordings (no additional redistribution license asserted):
+- selected grass.wav: grass; also reused for puddle, swamp and snow.
+- selected concrete-natural-preview(1).wav: concrete, asphalt, slate, tile, glass.
+- approved linoleum-impact-01-louder.wav: plastic. Its earlier processing
+  softened high frequencies; no additional EQ applied in this update.
+Grass/concrete: converted to mono PCM16 44100 Hz, leading silence trimmed,
+0.5 ms opening/5 ms ending fades, constant gain. No EQ/compression/denoising.
+Assignments beyond the recorded surfaces are artistic reuse, not authentic
+recordings of metal, glass, snow or water.

@@ -1,0 +1,102 @@
+{
+  "method": "Gain only; match maximum 50 ms RMS measured above 100 Hz; common level limited to avoid clipping. No output filtering or compression.",
+  "target": 0.08222935600986636,
+  "files": [
+    {
+      "file": "sounds/wood/wood_01_01.wav",
+      "source_key": "wood_01",
+      "gain_db": -10.122,
+      "seconds": 0.09299319727891156,
+      "peak": 0.24944926051391195,
+      "impact_50ms_rms": 0.08222935600986601
+    },
+    {
+      "file": "sounds/wood/wood_02_02.wav",
+      "source_key": "wood_02",
+      "gain_db": -10.394,
+      "seconds": 0.09700680272108844,
+      "peak": 0.2417727261217247,
+      "impact_50ms_rms": 0.08222935600986672
+    },
+    {
+      "file": "sounds/ground/ground_01.wav",
+      "source_key": "ground",
+      "gain_db": -3.708,
+      "seconds": 0.14,
+      "peak": 0.5219983223475475,
+      "impact_50ms_rms": 0.08222935600986638
+    },
+    {
+      "file": "sounds/grass/grass_01.wav",
+      "source_key": "grass",
+      "gain_db": 1.286,
+      "seconds": 0.16816326530612244,
+      "peak": 0.5758989981632683,
+      "impact_50ms_rms": 0.08222935600986787
+    },
+    {
+      "file": "sounds/concrete/concrete_01.wav",
+      "source_key": "concrete",
+      "gain_db": 5.491,
+      "seconds": 0.3524036281179138,
+      "peak": 0.9,
+      "impact_50ms_rms": 0.08222935600986643
+    },
+    {
+      "file": "sounds/tile/concrete_01.wav",
+      "source_key": "concrete",
+      "gain_db": 5.491,
+      "seconds": 0.3524036281179138,
+      "peak": 0.9,
+      "impact_50ms_rms": 0.08222935600986643
+    },
+    {
+      "file": "sounds/glass/concrete_01.wav",
+      "source_key": "concrete",
+      "gain_db": 5.491,
+      "seconds": 0.3524036281179138,
+      "peak": 0.9,
+      "impact_50ms_rms": 0.08222935600986643
+    },
+    {
+      "file": "sounds/metal/ground_01.wav",
+      "source_key": "ground",
+      "gain_db": -3.708,
+      "seconds": 0.14,
+      "peak": 0.5219983223475475,
+      "impact_50ms_rms": 0.08222935600986638
+    },
+    {
+      "file": "sounds/garbage/ground_01.wav",
+      "source_key": "ground",
+      "gain_db": -3.708,
+      "seconds": 0.14,
+      "peak": 0.5219983223475475,
+      "impact_50ms_rms": 0.08222935600986638
+    },
+    {
+      "file": "sounds/water/grass_01.wav",
+      "source_key": "grass",
+      "gain_db": 1.286,
+      "seconds": 0.16816326530612244,
+      "peak": 0.5758989981632683,
+      "impact_50ms_rms": 0.08222935600986787
+    },
+    {
+      "file": "sounds/snow/grass_01.wav",
+      "source_key": "grass",
+      "gain_db": 1.286,
+      "seconds": 0.16816326530612244,
+      "peak": 0.5758989981632683,
+      "impact_50ms_rms": 0.08222935600986787
+    },
+    {
+      "file": "sounds/plastic/plastic_01.wav",
+      "source_key": "plastic",
+      "gain_db": -7.784,
+      "seconds": 0.37,
+      "peak": 0.3751236752966567,
+      "impact_50ms_rms": 0.08222935600986639
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "sounds/wood/wood_01_01.wav",
+    "source": "https://freesound.org/people/Pjkasinski3/sounds/171620/",
+    "license": "CC0 1.0",
+    "decoded_source_window_seconds": [
+      0.052,
+      0.145
+    ],
+    "output_frames": 4101,
+    "sample_rate": 44100,
+    "duration_seconds": 0.09299319727891156,
+    "processing": "MP3 decoded, mono 44100 Hz, crop, DC removal, 0.6 ms attack/12 ms fade, peak normalized to 0.8, PCM16",
+    "surface_assignment": "Listening-based artistic assignment, not verified original recording surface.",
+    "note_021": "Original processing history; final constant gain and reused family copies are recorded in AudioBalance.json."
+  },
+  {
+    "file": "sounds/wood/wood_02_02.wav",
+    "source": "https://freesound.org/people/Pjkasinski3/sounds/171620/",
+    "license": "CC0 1.0",
+    "decoded_source_window_seconds": [
+      0.378,
+      0.475
+    ],
+    "output_frames": 4278,
+    "sample_rate": 44100,
+    "duration_seconds": 0.09700680272108844,
+    "processing": "MP3 decoded, mono 44100 Hz, crop, DC removal, 0.6 ms attack/12 ms fade, peak normalized to 0.8, PCM16",
+    "surface_assignment": "Listening-based artistic assignment, not verified original recording surface.",
+    "note_021": "Original processing history; final constant gain and reused family copies are recorded in AudioBalance.json."
+  },
+  {
+    "file": "sounds/ground/ground_01.wav",
+    "source": "https://freesound.org/people/smill.and.welson/sounds/858723/",
+    "license": "CC BY 4.0",
+    "decoded_source_window_seconds": [
+      0,
+      0.14
+    ],
+    "output_frames": 6174,
+    "sample_rate": 44100,
+    "duration_seconds": 0.14,
+    "processing": "MP3 decoded, mono 44100 Hz, crop, DC removal, 0.6 ms attack/12 ms fade, peak normalized to 0.8, PCM16",
+    "surface_assignment": "Listening-based artistic assignment, not verified original recording surface.",
+    "note_021": "Original processing history; final constant gain and reused family copies are recorded in AudioBalance.json."
+  }
+]

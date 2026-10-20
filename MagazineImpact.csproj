@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>MagazineImpact</AssemblyName>
+    <Version>0.2.1</Version>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GamePath Condition="'$(GamePath)' == ''">$(MSBuildThisFileDirectory)references</GamePath>
+    <GameReferences Condition="Exists('$(GamePath)/EscapeFromTarkov_Data/Managed')">$(GamePath)/EscapeFromTarkov_Data/Managed</GameReferences>
+    <GameReferences Condition="'$(GameReferences)' == ''">$(GamePath)</GameReferences>
+    <BepReferences Condition="Exists('$(GamePath)/BepInEx/core')">$(GamePath)/BepInEx/core</BepReferences>
+    <BepReferences Condition="'$(BepReferences)' == ''">$(GamePath)</BepReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/*.cs" />
+    <Reference Include="BepInEx"><HintPath>$(BepReferences)/BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepReferences)/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameReferences)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Comfort"><HintPath>$(GameReferences)/Comfort.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(GameReferences)/UnityEngine.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameReferences)/UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(GameReferences)/UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(GameReferences)/UnityEngine.AudioModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

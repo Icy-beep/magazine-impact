@@ -1,0 +1,11 @@
+bin/
+obj/
+references/
+/releases/
+.vs/
+.idea/
+*.user
+*.suo
+BepInEx/config/
+BepInEx/LogOutput.log
+.DS_Store
